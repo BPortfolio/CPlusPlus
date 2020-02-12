@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CDA96C6D23F4712C00EBF0DB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDA96C6C23F4712C00EBF0DB /* main.cpp */; };
+		CDA96C7523F4723800EBF0DB /* Logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDA96C7423F4723800EBF0DB /* Logger.cpp */; };
+		CDA96C7823F47AC600EBF0DB /* CarFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDA96C7723F47AC600EBF0DB /* CarFactory.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		CDA96C6923F4712C00EBF0DB /* FactoryLogger */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FactoryLogger; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA96C6C23F4712C00EBF0DB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CDA96C7323F471E600EBF0DB /* Logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
+		CDA96C7423F4723800EBF0DB /* Logger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Logger.cpp; sourceTree = "<group>"; };
+		CDA96C7623F47A7700EBF0DB /* CarFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarFactory.h; sourceTree = "<group>"; };
+		CDA96C7723F47AC600EBF0DB /* CarFactory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CarFactory.cpp; sourceTree = "<group>"; };
+		CDA96C7C23F47B5200EBF0DB /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				CDA96C6C23F4712C00EBF0DB /* main.cpp */,
+				CDA96C7323F471E600EBF0DB /* Logger.h */,
+				CDA96C7423F4723800EBF0DB /* Logger.cpp */,
+				CDA96C7623F47A7700EBF0DB /* CarFactory.h */,
+				CDA96C7723F47AC600EBF0DB /* CarFactory.cpp */,
+				CDA96C7C23F47B5200EBF0DB /* Car.h */,
 			);
 			path = FactoryLogger;
 			sourceTree = "<group>";
@@ -120,6 +132,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDA96C6D23F4712C00EBF0DB /* main.cpp in Sources */,
+				CDA96C7823F47AC600EBF0DB /* CarFactory.cpp in Sources */,
+				CDA96C7523F4723800EBF0DB /* Logger.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
